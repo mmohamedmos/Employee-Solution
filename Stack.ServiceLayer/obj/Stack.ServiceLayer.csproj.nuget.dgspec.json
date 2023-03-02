@@ -1,0 +1,483 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.ServiceLayer\\Stack.ServiceLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Core\\Stack.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Core\\Stack.Core.csproj",
+        "projectName": "Stack.Core",
+        "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Core\\Stack.Core.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Service Provider Getway\\SPG_SharedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\Stack.DAL.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\Stack.DAL.csproj"
+              },
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj"
+              },
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj"
+              },
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\Stack.Repository.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\Stack.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\Stack.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\Stack.DAL.csproj",
+        "projectName": "Stack.DAL",
+        "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\Stack.DAL.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Service Provider Getway\\SPG_SharedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj",
+        "projectName": "Stack.DTOs",
+        "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Service Provider Getway\\SPG_SharedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj",
+        "projectName": "Stack.Entities",
+        "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Service Provider Getway\\SPG_SharedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\Stack.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\Stack.Repository.csproj",
+        "projectName": "Stack.Repository",
+        "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\Stack.Repository.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Service Provider Getway\\SPG_SharedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.ServiceLayer\\Stack.ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.ServiceLayer\\Stack.ServiceLayer.csproj",
+        "projectName": "Stack.ServiceLayer",
+        "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.ServiceLayer\\Stack.ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Service Provider Getway\\SPG_SharedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Core\\Stack.Core.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Core\\Stack.Core.csproj"
+              },
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\Stack.DAL.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DAL\\Stack.DAL.csproj"
+              },
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.DTOs\\Stack.DTOs.csproj"
+              },
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Entities\\Stack.Entities.csproj"
+              },
+              "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\Stack.Repository.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\Desktop\\API-Stack\\API-Stack\\Stack.Repository\\Stack.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
